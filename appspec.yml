@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/my-app/react-ci-cd-app
+    destination: /home/ubuntu/my-app/react-cicd-app
     overwrite: true
 file_exists_behavior: OVERWRITE
 
@@ -13,7 +13,7 @@ permissions:
     owner: ubuntu
     group: ubuntu
 
-hooks: 
+hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
