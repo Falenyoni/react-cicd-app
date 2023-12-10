@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Hello World CICD Deployment!!!</h1>
+      <h1>Hello World CICD Deployment 2!!!</h1>
     </div>
   );
 }
